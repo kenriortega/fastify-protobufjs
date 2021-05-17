@@ -3,7 +3,7 @@
 const fp = require('fastify-plugin')
 const protobufjs = require('protobufjs')
 
-function protobufjsSerializerPlugin(fastify, options, next) {
+function fastifyProtobuf(fastify, options, next) {
 
     const { protoloadPath, messagePackage } = options
     const root = protobufjs.loadSync(protoloadPath)
@@ -34,7 +34,7 @@ function protobufjsSerializerPlugin(fastify, options, next) {
 }
 
 
-module.exports = fp(protobufjsSerializerPlugin, {
+module.exports = fp(fastifyProtobuf, {
     fastify: '3.x',
     name: 'fastify-protobufjs'
 })
