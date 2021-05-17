@@ -1,0 +1,17 @@
+{
+  "name": "fastify-protobufjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify-accepts-serializer": "^3.2.0",
+    "fastify-plugin": "^3.0.0",
+    "protobufjs": "^6.11.2"
+  }
+}
