@@ -14,6 +14,13 @@ $ npm install --save fastify-protobufjs
 // or
 $ yarn add fastify-protobufjs
 ```
+Test
+------------
+
+```bash
+$ npm test
+
+```
 
 Usage
 -----
