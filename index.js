@@ -21,7 +21,7 @@ function fastifyProtobuf(fastify, options, next) {
 
     fastify.addContentTypeParser('application/x-protobuf', {
         parseAs: 'buffer'
-    }, async (req, body, done) => {
+    }, (req, body, done) => {
         try {
             const res = Package.decode(body)
             return res
