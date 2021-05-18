@@ -1,14 +1,24 @@
 {
   "name": "fastify-protobufjs",
   "version": "1.0.3",
-  "description": "",
+  "description": "A simple fastify-plugin to serialize binary data to protobuf",
   "main": "index.js",
   "scripts": {
     "lint": "npx standard --fix",
     "test": "tap test/test.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenriortega/fastify-protobufjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kenriortega/fastify-protobufjs/issues"
+  },
+  "homepage": "https://github.com/kenriortega/fastify-protobufjs",
+  "keywords": [
+    "fastify"
+  ],
+  "author": "kenriortega",
   "license": "ISC",
   "dependencies": {
     "fastify-accepts-serializer": "^3.2.0",
