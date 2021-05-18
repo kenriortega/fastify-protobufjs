@@ -1,6 +1,6 @@
 {
   "name": "fastify-protobufjs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple fastify-plugin to serialize binary data to protobuf",
   "main": "index.js",
   "scripts": {
